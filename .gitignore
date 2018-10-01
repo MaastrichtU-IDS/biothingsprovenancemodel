@@ -1,2 +1,3 @@
+.gitignore
 wikidata\data\wikidata_jsondata.zip
 wikidata\data\wikidata_provenance_results.csv
