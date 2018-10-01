@@ -1,0 +1,85 @@
+// --- Example 1 --- //
+{
+	"@context" 							:	"http://biothings.io/biothingspovenancemodel.jsonld",
+	"id"								:	"assertion:1",
+	"type"								:	"sio:assertion",
+	"label"								:	"Acetaminophen inhibits Prostaglandin G/H synthase 1",
+	"subject"							:	"drugbank:DB00316",
+	"predicate"							:	"sio:inhibits",
+	"object"							:	"drugbankb:BE0000017",
+	"assertedBy" 						:	"Regina M. Botting",
+	"coAssertedBy" 						:	"Samir S. Ayoub",
+	"assertedOn"						:	"2004/11/23",
+	"publishedOn"						:	"2004/11/23",
+	"wasInferredFrom"					:	"assertion:2",
+	"publishedIn"						:	"Prostaglandins, Leukotrienes and Essential Fatty Acids (PLEFA)",
+	"publisher"							:	"Prostaglandins, Leukotrienes and Essential Fatty Acids (PLEFA)",
+	"publicationTitle"					:	"COX-3 and the mechanism of action of paracetamol/acetaminophen",
+	"retrievedFrom"						:	"Drugbank",
+	"retrievalURL"						:	"drugbank:DB00316#BE0000017",
+	"databaseURL"						:	"https://www.drugbank.ca",
+	"databaseLicense"					:	"https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+	"databaseVersion"					:	"5.1.1",
+	"supportedByDataSet"				: 	"drugbank:DB00316#BE0000017",
+    "supportingDatasetLicense"			: 	"https://creativecommons.org/licenses/by-nc/4.0/legalcode",
+    "supportingDatasetURL"				: 	"drugbank:DB00316#BE0000017",
+    "supportingDatasetVersion"			: 	"5.1.1"
+}
+
+// --- Example 2 --- //
+{
+	"@context" 							:	"http://biothings.io/biothingspovenancemodel.jsonld",
+	"id"								:	"assertion:3",
+	"type"								:	"sio:assertion",
+	"label"								:	"Mebendazole inhibits VEGFR2",
+	"subject"							:	"drugbank:DB00643",
+	"predicate"							:	"sio:inhibits",
+	"object"							:	"drugbankp:P35968",
+	"assertedBy" 						:	"Sivanesan Dakshanamurthy",
+	"coAssertedBy" 						:	"Stephen W Byers",
+	"assertedOn"						:	"2012/07/25",
+	"publishedOn"						:	"2012/07/25",
+	"wasDerivedFrom"					:	"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3419493/figure/F8/",
+	"supportingAnalysisSoftware"		:	"Graphpad Prism",
+	"supportingAnalysisSoftwareVersion"	:	"6.01",
+	"supportingAnalysisMethod"			:	"Ligand docking",
+	"supportingSoftwareLicense"			:	"https://www.graphpad.com/how-to-buy",
+	"publishedIn"						:	"Journal of Medicinal Chemistry",
+	"publisher"							:	"NIH",
+	"publicationTitle"					:	"Predicting New Indications for Approved Drugs Using a Proteo-Chemometric Method"
+}
+
+// --- Example 3 --- //
+{
+	"@context" 							:	"http://biothings.io/biothingspovenancemodel.jsonld",
+	"id"								:	"assertion:4",
+	"type"								:	"sio:assertion",
+	"label"								:	"Acetaminophen is a substance that treats Cancer pain",
+	"subject"							:	"drugbank:DB00316",
+	"predicate"							:	"obo:RO_0002606",
+	"object"							:	"meddra:10058019",
+	"supportingExperimentID"			: 	"NCT00152854"
+}
+
+
+
+
+// obtainedFrom: org:drugbank
+// reportedIn: pubmed:11752352
+// reportedOn: 01-01-2002
+// determinedBy: eco:XXX. -- or some process specification using PROV
+// licensedWith: ccby
+// inCollection: drugbank-dataset-v4
+
+// -- provenance of the digital assertion
+// metadata:
+// 	createdBy: orcid
+// 	publishedOn: 25-08-2018
+// 	licensedWith: ccby
+//             inCollection: mychem.info.v3
+
+//context:
+//location: neuronal cell
+//time: S-phase
+//-- provenance of assertion
+//provenance:
