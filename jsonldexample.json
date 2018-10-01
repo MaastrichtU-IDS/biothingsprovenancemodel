@@ -60,26 +60,3 @@
 	"object"							:	"meddra:10058019",
 	"supportingExperimentID"			: 	"NCT00152854"
 }
-
-
-
-
-// obtainedFrom: org:drugbank
-// reportedIn: pubmed:11752352
-// reportedOn: 01-01-2002
-// determinedBy: eco:XXX. -- or some process specification using PROV
-// licensedWith: ccby
-// inCollection: drugbank-dataset-v4
-
-// -- provenance of the digital assertion
-// metadata:
-// 	createdBy: orcid
-// 	publishedOn: 25-08-2018
-// 	licensedWith: ccby
-//             inCollection: mychem.info.v3
-
-//context:
-//location: neuronal cell
-//time: S-phase
-//-- provenance of assertion
-//provenance:
