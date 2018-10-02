@@ -3,7 +3,11 @@ PREFIX bio-prov:<http://bioprovenance.org>
 PREFIX sio:<http://semanticscience.org/resource/>
 PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
-PREFIX drugbank:<http://bio2rdf.org/drugbank_vocabulary:>
+PREFIX drugbank:<https://www.drugbank.ca/drugs/>
+PREFIX obo:<http://purl.obolibrary.org/obo/>
+PREFIX meddra:<http://purl.bioontology.org/ontology/MEDDRA/>
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+#Example 1
 bio-prov:assertion1 
 	a 						sio:assertion ;
 	rdfs:label  					"Acetaminophen inhibits Prostaglandin G/H synthase 1" .		   
@@ -27,12 +31,6 @@ bio-prov:assertion1
   	bio-prov:supportingDatasetVersion	  	  "5.1.1"^^xsd:int .
 
 #Example 2
-PREFIX bio-prov: <http://bioprovenance.org>
-PREFIX sio:<http://semanticscience.org/resource/ >
-PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
-PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
-PREFIX assertion:<http://bioprovenance.org/assertion/>
-PREFIX drugbank:<http://bio2rdf.org/drugbank_vocabulary:>
 bio-prov:assertion3 
 	a 						sio:assertion ;
 	rdfs:label  					"Mebendazole inhibits VEGFR2"@en .	
@@ -51,3 +49,11 @@ bio-prov:assertion3
  	bio-prov:publicationTitle			"Predicting New Indications for Approved Drugs Using a Proteo-Chemometric Method"@en .
 
 #Example 3
+bio-prov:assertion4 
+	a 						sio:assertion ;
+	rdfs:label  				 	"Acetaminophen is a substance that treats Cancer pain"@en .	
+bio-prov:assertion4 
+	bio-prov:supportingExperimentID			"NCT00152854"@en ;
+ 	rdf:subject					drugbank:DB00316 ;
+	rdf:predicate					obo:RO_0002606 ;
+	rdf:object					meddra:10058019 .
