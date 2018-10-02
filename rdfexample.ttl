@@ -1,3 +1,4 @@
+#Example 1
 PREFIX bio-prov:<http://bioprovenance.org>
 PREFIX sio:<http://semanticscience.org/resource/>
 PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
@@ -6,7 +7,7 @@ PREFIX drugbank:<http://bio2rdf.org/drugbank_vocabulary:>
 bio-prov:assertion1 
 	a 						sio:assertion ;
 	rdfs:label  					"Acetaminophen inhibits Prostaglandin G/H synthase 1" .		   
-bio-prov::assertion1		
+bio-prov:assertion1		
 	bio-prov:assertedBy         		  	"Regina M. Botting"@en ; 
 	bio-prov:coAssertedBy         			"Samir S. Ayoub"@en ; 
 	bio-prov:assertedOn        			"2004-11-23"^^xsd:date ; 
@@ -24,3 +25,29 @@ bio-prov::assertion1
   	bio-prov:supportingDatasetLicense	  	  "https://creativecommons.org/licenses/by-nc/4.0/legalcode" ; 
   	bio-prov:supportingDatasetURL		    	  drugbank:DB00316-BE0000017 ; 
   	bio-prov:supportingDatasetVersion	  	  "5.1.1"^^xsd:int .
+
+#Example 2
+PREFIX bio-prov: <http://bioprovenance.org>
+PREFIX sio:<http://semanticscience.org/resource/ >
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+PREFIX assertion:<http://bioprovenance.org/assertion/>
+PREFIX drugbank:<http://bio2rdf.org/drugbank_vocabulary:>
+bio-prov:assertion3 
+	a 						sio:assertion ;
+	rdfs:label  					"Mebendazole inhibits VEGFR2"@en .	
+ bio-prov:assertion3	
+ 	bio-prov:assertedBy 				"Sivanesan Dakshanamurthy"@en ;
+ 	bio-prov:coAssertedBy				"Stephen W Byers"@en ;
+ 	bio-prov:assertedOn				"2012-07-25"^^xsd:date ;
+ 	bio-prov:publishedOn				"2012-07-25"^^xsd:date ;
+ 	bio-prov:wasDerivedFrom				"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3419493/figure/F8/" ;
+ 	bio-prov:supportingAnalysisSoftware		"Graphpad Prism"@en ;
+ 	bio-prov:supportingAnalysisSoftwareVersion	"6.01"^^xsd:int ;
+ 	bio-prov:supportingAnalysisMethod		"Ligand docking"@en ;
+ 	bio-prov:supportingSoftwareLicense		"https://www.graphpad.com/how-to-buy" ;
+ 	bio-prov:publishedIn				"Journal of Medicinal Chemistry"@en ;
+ 	bio-prov:publisher				"NIH"@en ;
+ 	bio-prov:publicationTitle			"Predicting New Indications for Approved Drugs Using a Proteo-Chemometric Method"@en .
+
+#Example 3
