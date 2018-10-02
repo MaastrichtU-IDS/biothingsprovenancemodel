@@ -28,7 +28,10 @@ bio-prov:assertion1
 	bio-prov:supportedByDataSet			  drugbank:DB00316-BE0000017 ; 
   	bio-prov:supportingDatasetLicense	  	  "https://creativecommons.org/licenses/by-nc/4.0/legalcode" ; 
   	bio-prov:supportingDatasetURL		    	  drugbank:DB00316-BE0000017 ; 
-  	bio-prov:supportingDatasetVersion	  	  "5.1.1"^^xsd:int .
+  	bio-prov:supportingDatasetVersion	  	  "5.1.1"^^xsd:int ;
+ 	rdf:subject					   drugbank:DB00316 ;
+	rdf:predicate					   sio:inhibits ;
+	rdf:object					   drugbank:BE0000017 ;
 
 #Example 2
 bio-prov:assertion3 
@@ -46,7 +49,10 @@ bio-prov:assertion3
  	bio-prov:supportingSoftwareLicense		"https://www.graphpad.com/how-to-buy" ;
  	bio-prov:publishedIn				"Journal of Medicinal Chemistry"@en ;
  	bio-prov:publisher				"NIH"@en ;
- 	bio-prov:publicationTitle			"Predicting New Indications for Approved Drugs Using a Proteo-Chemometric Method"@en .
+ 	bio-prov:publicationTitle			"Predicting New Indications for Approved Drugs Using a Proteo-Chemometric Method"@en ;
+ 	rdf:subject					drugbank:DB00643 ;
+	rdf:predicate					sio:inhibits ;
+	rdf:object					drugbankp:P35968 .
 
 #Example 3
 bio-prov:assertion4 
