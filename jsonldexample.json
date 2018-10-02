@@ -1,7 +1,7 @@
-// --- Example 1 --- //
+// --- Example 1: --- //
 {
 	"@context" 							:	"http://biothings.io/biothingspovenancemodel.jsonld",
-	"id"								:	"assertion:1",
+	"id"								:	"assertion1",
 	"type"								:	"sio:assertion",
 	"label"								:	"Acetaminophen inhibits Prostaglandin G/H synthase 1",
 	"subject"							:	"drugbank:DB00316",
@@ -11,7 +11,7 @@
 	"coAssertedBy" 						:	"Samir S. Ayoub",
 	"assertedOn"						:	"2004/11/23",
 	"publishedOn"						:	"2004/11/23",
-	"wasInferredFrom"					:	"assertion:2",
+	"wasInferredFrom"					:	"assertion2",
 	"publishedIn"						:	"Prostaglandins, Leukotrienes and Essential Fatty Acids (PLEFA)",
 	"publisher"							:	"Prostaglandins, Leukotrienes and Essential Fatty Acids (PLEFA)",
 	"publicationTitle"					:	"COX-3 and the mechanism of action of paracetamol/acetaminophen",
@@ -29,7 +29,7 @@
 // --- Example 2 --- //
 {
 	"@context" 							:	"http://biothings.io/biothingspovenancemodel.jsonld",
-	"id"								:	"assertion:3",
+	"id"								:	"assertion3",
 	"type"								:	"sio:assertion",
 	"label"								:	"Mebendazole inhibits VEGFR2",
 	"subject"							:	"drugbank:DB00643",
@@ -52,7 +52,7 @@
 // --- Example 3 --- //
 {
 	"@context" 							:	"http://biothings.io/biothingspovenancemodel.jsonld",
-	"id"								:	"assertion:4",
+	"id"								:	"assertion4",
 	"type"								:	"sio:assertion",
 	"label"								:	"Acetaminophen is a substance that treats Cancer pain",
 	"subject"							:	"drugbank:DB00316",
