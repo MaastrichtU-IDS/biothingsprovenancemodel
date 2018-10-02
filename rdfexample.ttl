@@ -8,20 +8,20 @@ bio-prov:assertion1 a sio:assertion ;
 		   rdfs:label  "Acetaminophen inhibits Prostaglandin G/H synthase 1" .
 		   
 bio-prov::assertion1		
-	bio-prov:assertedBy         		  "Regina M. Botting"@en ; 
-	bio-prov:coAssertedBy         		"Samir S. Ayoub"@en ; 
-	bio-prov:assertedOn        			   "2004-11-23"^^xsd:date ; 
-	bio-prov:publishedOn        		   "2004-11-23"^^xsd:date ; 
-	bio-prov:wasInferredFrom			     assertion:2 ; 
-	bio-prov:publishedIn        		   "Prostaglandins, Leukotrienes and Essential Fatty Acids (PLEFA)"@en ; 
-	bio-prov:publisher	        		    "Prostaglandins, Leukotrienes and Essential Fatty Acids (PLEFA)"@en ; 
-	bio-prov:publicationTitle			      "COX-3 and the mechanism of action of paracetamol/acetaminophen"@en ; 
-	bio-prov:retrievedFrom        		  "Drugbank"@en ; 
-	bio-prov:retrievalURL        		    drugbank:DB00316-BE0000017 ; 
-	bio-prov:databaseURL        		    "https://www.drugbank.ca" ; 
-	bio-prov:databaseLicense			      "https://creativecommons.org/licenses/by-nc/4.0/legalcode" ; 
-	bio-prov:databaseVersion			      "5.1.1"^^xsd:int ; 
-	bio-prov:supportedByDataSet			    drugbank:DB00316-BE0000017 ; 
-  bio-prov:supportingDatasetLicense	  "https://creativecommons.org/licenses/by-nc/4.0/legalcode" ; 
-  bio-prov:supportingDatasetURL		    drugbank:DB00316-BE0000017 ; 
-  bio-prov:supportingDatasetVersion	  "5.1.1"^^xsd:int .
+	bio-prov:assertedBy         		  	"Regina M. Botting"@en ; 
+	bio-prov:coAssertedBy         			"Samir S. Ayoub"@en ; 
+	bio-prov:assertedOn        			"2004-11-23"^^xsd:date ; 
+	bio-prov:publishedOn        		   	"2004-11-23"^^xsd:date ; 
+	bio-prov:wasInferredFrom			 assertion:2 ; 
+	bio-prov:publishedIn        		   	"Prostaglandins, Leukotrienes and Essential Fatty Acids (PLEFA)"@en ; 
+	bio-prov:publisher	        		"Prostaglandins, Leukotrienes and Essential Fatty Acids (PLEFA)"@en ; 
+	bio-prov:publicationTitle			 "COX-3 and the mechanism of action of paracetamol/acetaminophen"@en ; 
+	bio-prov:retrievedFrom        		  	 "Drugbank"@en ; 
+	bio-prov:retrievalURL        		    	 drugbank:DB00316-BE0000017 ; 
+	bio-prov:databaseURL        		    	 "https://www.drugbank.ca" ; 
+	bio-prov:databaseLicense			 "https://creativecommons.org/licenses/by-nc/4.0/legalcode" ; 
+	bio-prov:databaseVersion			 "5.1.1"^^xsd:int ; 
+	bio-prov:supportedByDataSet			  drugbank:DB00316-BE0000017 ; 
+  	bio-prov:supportingDatasetLicense	  	  "https://creativecommons.org/licenses/by-nc/4.0/legalcode" ; 
+  	bio-prov:supportingDatasetURL		    	  drugbank:DB00316-BE0000017 ; 
+  	bio-prov:supportingDatasetVersion	  	  "5.1.1"^^xsd:int .
