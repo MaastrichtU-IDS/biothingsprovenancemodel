@@ -2,17 +2,16 @@ PREFIX bio-prov:<http://bioprovenance.org>
 PREFIX sio:<http://semanticscience.org/resource/>
 PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
-PREFIX assertion:<http://bioprovenance.org/assertion/>
 PREFIX drugbank:<http://bio2rdf.org/drugbank_vocabulary:>
-bio-prov:assertion1 a sio:assertion ;
-		   rdfs:label  "Acetaminophen inhibits Prostaglandin G/H synthase 1" .
+bio-prov:assertion1 	a 				sio:assertion ;
+		   	rdfs:label  			"Acetaminophen inhibits Prostaglandin G/H synthase 1" .
 		   
 bio-prov::assertion1		
 	bio-prov:assertedBy         		  	"Regina M. Botting"@en ; 
 	bio-prov:coAssertedBy         			"Samir S. Ayoub"@en ; 
 	bio-prov:assertedOn        			"2004-11-23"^^xsd:date ; 
 	bio-prov:publishedOn        		   	"2004-11-23"^^xsd:date ; 
-	bio-prov:wasInferredFrom			 assertion:2 ; 
+	bio-prov:wasInferredFrom			 assertion2 ; 
 	bio-prov:publishedIn        		   	"Prostaglandins, Leukotrienes and Essential Fatty Acids (PLEFA)"@en ; 
 	bio-prov:publisher	        		"Prostaglandins, Leukotrienes and Essential Fatty Acids (PLEFA)"@en ; 
 	bio-prov:publicationTitle			 "COX-3 and the mechanism of action of paracetamol/acetaminophen"@en ; 
